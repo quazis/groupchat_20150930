@@ -1,0 +1,422 @@
+body {
+	background: url('../images/groupCHAT_background_texture.png');
+	font-family: Calibri;
+}
+
+.navbar {
+  max-height: 30px;
+  margin-bottom: 5px;
+}
+
+/* Scrollbar */ 
+
+::-webkit-scrollbar{width: 7px;}
+
+::-webkit-scrollbar-button:vertical:increment {background-color:rgb(114, 114, 114);} ::-webkit-scrollbar-button:vertical:increment:hover {background-color:rgb(114, 114, 114);} 
+
+::-webkit-scrollbar-thumb{background-color:rgb(196, 196, 196); border-radius: 0;}
+::-webkit-scrollbar-thumb:hover{background-color:rgb(106, 139, 163);}
+
+::-webkit-scrollbar-track{background-color:rgb(237, 237, 237);}
+
+
+/* End Scrollbar */
+
+/*---------- FOR INDEX PAGE ----------*/
+
+h4 {
+	color: white;
+	font-family: Calibri;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 20px;
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.9);
+}
+h3 {
+	color: white;
+	font-family: Calibri;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 30px;
+	text-shadow: 3px 3px 10px rgba(0,0,0,0.9);
+}
+
+#groupchat-icon {
+	min-height: 150px;
+	padding-top: 10px;
+}
+
+#login-email, #login-password, #create-account-email, #create-account-password {
+	box-shadow: inset 2px 2px 7px 0px rgba(0,0,0,0.9);
+	background: rgba(255,255,255,0.9);
+	font-size: 16px;
+	color: black;
+	min-width: 290px;
+	max-height: 35px;
+	margin: -10px 0px -10px -57px;
+}
+
+#label-1 {
+	margin-left: -37px;
+}
+
+#label-2 {
+	margin-left: 20px;
+	color: white;
+}
+
+#label-post {
+	font-size: 24px;
+	color: black;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.9);
+}
+
+#create-account-email, #create-account-password {
+	box-shadow: inset 2px 2px 7px 0px rgba(0,0,0,0.9);
+	background: rgba(255,255,255,0.9);
+	font-size: 16px;
+	color: black;
+	max-height: 30px;
+	min-width: 300px;
+	margin: -10px 0px 10px 0px;
+	papping-left: 20px;
+}
+
+#create-account-first-name {
+	box-shadow: inset 2px 2px 7px 0px rgba(0,0,0,0.9);
+	background: rgba(255,255,255,0.9);
+	font-size: 16px;
+	color: black;
+	min-width: 167px;
+	max-height: 30px;
+	margin: 0px 0px 0px -30px;
+}
+
+#create-account-surname {
+	box-shadow: inset 2px 2px 7px 0px rgba(0,0,0,0.9);
+	background: rgba(255,255,255,0.9);
+	font-size: 16px;
+	color: black;
+	min-width: 167px;
+	max-height: 30px;
+	margin: 0px 0px 0px -10px;
+}
+
+#login-button {
+	margin: 35px 0px 0px -36px;
+	font-size: 16px;
+	color: white;
+	min-width: 170px;
+	max-height: 35px;
+	background: #39b54a;
+	box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.9);
+}
+
+#gc-navbar-fixed-bottom{
+	box-shadow: -1px -4px 5px rgba(0,0,0,0.9);
+	border-width: 1px 0 0;
+	background: rgba(0,0,0,0.5);
+	max-height: 15px;
+	padding: 1px;
+	margin: auto;
+	font-size: 10px;
+	color: orange;
+}
+
+#create-account {
+	min-height: 360px;
+	background: rgba(255,255,255,0.1);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.9);
+	padding-top: 15px;
+	margin-bottom: 20px;
+	border-radius: 3px; 
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px;
+}
+
+#create-account-button {
+	margin: 0px 0px 10px 0px;
+	font-size: 16px;
+	color: white;
+	min-width: 300px;
+	max-height: 35px;
+	background: #39b54a;
+	box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.9);
+}
+
+#footer-groupchat {
+	color: orange;
+}
+
+/*---------- FOR WELCOME PAGE ----------*/
+/*----------
+.fixed {
+        position: fixed;
+        width: 48%;
+}
+.scrollit {
+        float: right;
+        width: 50%
+}
+----------*/
+#gc-welcome-container-fluid {
+	margin: 70px 20px 20px 20px;
+}
+
+#gc-welcome-r1-c1 {
+	height: 550px;
+	background: rgba(255,255,255,0.1);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.9);
+	padding-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 2%;
+	margin-right: 2%;
+	border-radius: 3px; 
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px;
+}
+
+#gc-welcome-r1-c3 {
+	height: 550px;
+	background: rgba(255,255,255,0.1);
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.9);
+	padding-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 2%;
+	margin-right: 2%;
+	border-radius: 3px; 
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px;
+}
+
+#black-font {
+	color: black;
+	text-shadow: 0px 0px 0px rgba(0,0,0,0.9);
+}
+	
+#gc-welcome-r1-c2 {
+	height: 550px;
+	overflow-y: scroll;
+	background: rgba(255,255,255,0.9);
+	box-shadow: inset 5px 5px 7px 0px rgba(0,0,0,0.9);
+	padding-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 3px; 
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px;
+}
+
+hr {
+color: #959595;
+background-color: #959595;
+height: 1px;
+box-shadow: 1px 2px3px rgba(0,0,0,0.9);
+}
+
+#gc-navbar-fixed-top{
+	box-shadow: 1px 4px 5px rgba(0,0,0,0.9);
+	border-width: 0 0 1px;
+	background: rgba(0,0,0,0.5);
+	max-height: 30px;
+	padding: 2px;
+	margin-bottom: 2px;
+}
+
+#gc-navbar-header {
+	margin-bottom: 10px;
+}
+
+#gc-icon-navbar {
+	max-height: 25px;
+	margin: 2px 20px 2px 2px;
+}
+
+#gc-navbar-brand {
+	max-height: 30px;
+	margin: auto;
+}
+
+#gc-active {
+	font-size: 14px;
+	color: orange;
+	padding-top: 3px;
+	max-height: 25px;
+	min-width: 100px;
+}
+
+#gc-dropdown-toggle {
+	font-size: 14px;
+	color: orange;
+	padding-top: 3px;
+	border-bottom: 1px solid transparent;
+	border-top-left-radius: 1px;
+	border-top-right-radius: 1px;
+	height: 25px;
+	width: 110px;
+}
+
+#gc-dropdown-menu {
+	background: rgba(255,255,255,0.9);
+}
+
+#gc-search {
+	max-height: 25px;
+	min-width: 200px;
+	padding: 4px;
+	border-radius: 2px; 
+	-webkit-border-radius: 2px; 
+	-moz-border-radius: 2px;
+}
+
+#gc-search-button {
+	max-height: 25px;
+	padding: 4px;
+	border-radius: 2px; 
+	-webkit-border-radius: 2px; 
+	-moz-border-radius: 2px;
+	background: yellow;
+}
+
+#collapse-button-for-mobile {
+	background: orange;
+	box-shadow: -2px -2px 5px 0px rgba(0,0,0,0.9);
+	max-height: 10px;
+	max-width: 30px;
+	margin: 4px;
+	border-radius: 2px; 
+	-webkit-border-radius: 2px; 
+	-moz-border-radius: 2px;
+}
+
+.navbar-form {
+	max-height: 28px;
+	padding: 0px 0px;
+	margin: 1px;
+	border: none;
+}
+
+/*---------------------------------------------------------------------------------*/
+
+#gc-login {
+
+}
+
+#gc-index-container-1{
+	
+}
+
+#gc-index-container-2{
+
+}
+
+
+#gc-index-container-3{
+	
+}
+
+#gc-index-container-4{
+	
+}
+
+#gc-index-container-5{
+	
+}
+
+#profile-pic {
+  max-width: 200px;
+  margin: 0 auto;
+  display: block;  
+  width:200px;
+  height:200px; 
+  border: solid 1px #555; 
+  background-color: #eed; 
+  box-shadow: 7px 7px 7px rgba(0,0,0,0.6); 
+  -moz-box-shadow: 7px 7px 7px rgba(0,0,0,0.6); 
+  -webkit-box-shadow: 7px 7px 7px rgba(0,0,0,0.6);  
+  border-radius:100px;
+}
+
+#iframe-welcome {
+	width: 300px;
+	height: 200px;
+	box-shadow: -2px -2px 5px 0px rgba(0,0,0,0.9);
+	margin: 0 auto;
+}
+
+#latest-event {
+	margin: 0 auto;
+  	display: block;  
+  	width:300px;
+  	box-shadow: -2px -2px 5px 0px rgba(0,0,0,0.9);
+}
+
+/*---------------------------------------------------------------------------------*/
+
+@media (min-width: 369px) and (max-width: 600px) {
+	
+	#gc-search {
+		max-width: 60%;
+	}
+	
+	#login-email, #login-password {
+	margin: -10px 0px -10px -15px;
+	min-width: 105%;
+	}
+	#label-1 {
+	margin-left: -12px;
+	}
+
+	#login-button {
+	margin: 0px 0px 10px -15px;
+	font-size: 18px;
+	min-width: 107%;
+	max-height: 35px;
+	box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.9);
+	}
+	
+	#groupchat-icon {
+	max-height: 30px;
+	}
+	#create-account-button {
+		margin: 0px 0px 20px 0px;
+	}
+	#create-account-first-name {
+		max-width: 60%;
+	}
+	#create-account-surname {
+		max-width: 60%;
+		margin: 15px 0px 0px -30px;
+	}
+	
+	#gc-welcome-r1-c1 {
+		position: relative;
+		overflow: auto;
+		style: scrollit;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

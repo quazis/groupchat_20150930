@@ -1,0 +1,84 @@
+body {
+	background: url('../images/groupCHAT_background_texture.png');
+	font-family: Calibri;
+}
+
+#container{
+	width: 414px;
+	height: 600px;
+	background: url('..//images/background_with_icon.png') no-repeat;
+	margin: auto auto;
+	padding-top: 85px;
+}
+
+.posts{
+	width: 340px;
+	height: 130px;
+	margin: auto;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding:9px;
+	border:2px;
+}
+
+.top_buttons{
+	width: 350px;
+	height: 30px;
+	margin: auto;
+}
+
+.tranparent_button{
+	background: #333;
+	height: 20px;
+}
+
+.inner{
+	width: 350px;
+	height: 440px;
+	margin: auto;
+}
+
+.all_users{
+	width: 350px;
+	height: 380px;
+	margin: auto;
+	overflow: auto;
+}
+
+.terms{
+	width: 350px;
+	height: 100px;
+	overflow: auto;
+	background: #eee;
+	padding: 2px;
+	margin: auto;
+}
+
+.para{
+	color: #fff;
+	font: bold calibri, sans-serif;
+	font-size: 0.73em
+}
+
+.a{
+	color: #ddd;
+	font: bold calibri, sans-serif;
+	font-size: 1em;
+}
+
+.a1{
+	color: #ddd;
+	font: bold calibri, sans-serif;
+	font-size: 0.7em;
+}
+.a2{
+	color: #ddd;
+	font: bold calibri, sans-serif;
+	font-size: 0.8em;
+}
+
+.time{
+	color: #ddd;
+	font: bold calibri, sans-serif;
+	font-size: 0.5em;
+}
